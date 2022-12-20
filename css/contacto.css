@@ -1,0 +1,96 @@
+/*Cambio de medidas de px a rem*/
+html {
+    font-size: 62.5%;
+}
+
+header {
+    
+    background: #cccccc;
+    padding: 2rem 0;
+
+}
+
+/*Header*/
+.logo {
+
+    padding-left: 6rem;
+}
+
+.container {
+
+    width: 94rem;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+/*
+        - Posicion: absoluta nos permite mover el contenido
+        - Top,Right: nos permite mover arriba y derecha
+    */
+.navegator {
+    
+    font-size: 1.5rem;
+    position: absolute;
+    top: 11rem;
+    right: 1rem;
+    
+}
+
+    /*
+        - Margen: arriba derecha abajo izquierda
+    */
+.navegator li {
+ 
+    display: inline;
+    margin: 0 0 0 1.5rem;
+
+}
+
+/* - Mayuscula
+       - color de la letra
+       - Negrilla
+       - tamaño de fuente
+       - Quitar  el subrayado
+    */
+.navegator a {
+
+    /* - Mayuscula
+       - color de la letra
+       - Negrilla
+       - tamaño de fuente
+       - Quitar  el subrayado
+    */
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-decoration: none;
+
+}
+
+/*Main*/
+
+/*Capturar eventos: Css*/
+.navegator a:hover{
+
+    color: #c78c19;
+    text-decoration: underline;
+
+}
+
+/*Footer*/
+.footer {
+
+    text-align: center;
+    background-image: url(../assets/bg.jpg);
+    padding: 4rem;
+}
+
+.copyright {
+
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin: 2rem;
+}
+
