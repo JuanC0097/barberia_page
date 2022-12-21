@@ -11,10 +11,62 @@ html {
 
 .title {
     
-    font-size: 3.1rem;
+    font-size: 2.5rem;
     padding-left: 2rem;
-    margin: 2rem;
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+    background-image: url(../assets/bg.jpg);
+    color: #ffffff;
+
 }
+
+.container {
+
+    width: 94rem;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.logo {
+
+    padding-left: 1rem;
+}
+
+.navegator {
+    
+    font-size: 1.5rem;
+    position: absolute;
+    top: 11rem;
+    right: 1rem;
+    
+}
+
+.navegator li {
+ 
+    display: inline;
+    margin: 0 0 0 1.5rem;
+
+}
+
+/* - Mayuscula
+   - color de la letra
+   - Negrilla
+   - tamaño de fuente
+   - Quitar  el subrayado
+*/
+.navegator a {
+
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-decoration: none;
+
+}
+
+/*Main*/
+
 
 .img-header {
 
@@ -80,7 +132,7 @@ em strong {
 
 }
 
-ul{
+.list-dif {
 
     display: inline-block;
     vertical-align: top;
@@ -109,4 +161,12 @@ img-dife{
     color: #ffffff;
     font-size: 1.3rem;
     margin: 2rem;
+}
+
+/*Eventos*/
+.navegator a:hover{
+
+    color: #c78c19;
+    text-decoration: underline;
+
 }
