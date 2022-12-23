@@ -1,15 +1,28 @@
 /*Cambio de medidas de px a rem- Proyecto*/
 html {
+
     font-size: 62.5%;
 }
 
 header {
     
     background: #cccccc;
-    padding: 2rem 0;
 
 }
+
 /*Header General*/
+
+.title {
+    
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+    background-image: url(../assets/bg.jpg);
+    color: #ffffff;
+
+}
+
 .logo {
 
     padding-left: 6rem;
@@ -184,6 +197,47 @@ table td,th {
 
     border: 0.1rem solid #000000;
     padding: 0.8rem 1.5rem;
+
+}
+
+/*Main-home*/
+
+.banner {
+    width: 100%;
+    height: 50rem;
+}
+
+.principal-title {
+
+    text-align: center;
+    font-size: 4rem;
+    padding: 4rem;
+    margin: 0 0 1rem;
+
+}
+
+.main p {
+
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 0 1rem;
+
+}
+
+.main strong {
+
+    font-weight: bold;
+}
+
+.main {
+
+    font-style: italic;
+
+}
+
+.img-dife {
+
+    width: 60%;
 
 }
 
