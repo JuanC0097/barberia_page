@@ -1,4 +1,4 @@
-/*Cambio de medidas de px a rem*/
+/*Cambio de medidas de px a rem- Proyecto*/
 html {
     font-size: 62.5%;
 }
@@ -9,7 +9,7 @@ header {
     padding: 2rem 0;
 
 }
-/*Header*/
+/*Header General*/
 .logo {
 
     padding-left: 6rem;
@@ -67,7 +67,8 @@ header {
     text-decoration: none;
 
 }
-/*Main*/
+/*************************************************************************/
+/*Main productos*/
 
 /* - Utilizar siempre este width para pensar en las pantallas de 1880
    - Margin:Que todo el contenido se posiciones en inline-block, y el resto del espacio
@@ -118,6 +119,74 @@ header {
 
 }
 
+/**************************************************************/
+/*Main Contacto*/
+
+form{
+    margin: 4rem 0;
+    padding: 5rem 5rem;
+}
+
+form label, form legend {
+
+    display: block;
+    font-size: 2rem;
+    margin: 0 0 1rem;
+
+}
+
+form .input-padre,form textarea {
+
+    display: block;
+    margin:  0 0 2rem;
+    padding: 1rem 2.5rem;
+    width: 50%;
+
+}
+
+.checkbox {
+
+    margin: 2rem 0;
+    
+}
+
+.enviar {
+
+    width: 40%;
+    padding: 1.5rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+table {
+
+    margin: 4rem 6rem;
+    font-size: 4rem;
+
+}
+
+table thead {
+
+    background: #555555;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+table td,th {
+
+    border: 0.1rem solid #000000;
+    padding: 0.8rem 1.5rem;
+
+}
+
 /*Capturar eventos: Css*/
 
 .navegator a:hover{
@@ -145,7 +214,14 @@ header {
 
 }
 
-/*Footer*/
+/*button form*/
+.enviar:hover {
+
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+/*Footer general*/
 
 .footer {
 
