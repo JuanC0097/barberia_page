@@ -70,8 +70,81 @@ header {
 }
 
 /*Main*/
+/*Cambiar la propiedad inline por block*/
+main {
+    width: 94rem;
+    margin: 0 auto;
+}
+
+
+/*Estilos de Css*/
+
+form{
+    margin: 4rem 0;
+}
+
+form label, form legend {
+
+    display: block;
+    font-size: 2rem;
+    margin: 0 0 1rem;
+
+}
+
+form .input-padre,form textarea {
+
+    display: block;
+    margin:  0 0 2rem;
+    padding: 1rem 2.5rem;
+    width: 50%;
+
+}
+
+.checkbox {
+
+    margin: 2rem 0;
+    
+}
+
+.enviar {
+
+    width: 40%;
+    padding: 1.5rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+table {
+
+    margin: 4rem 4rem;
+
+}
+
+table thead {
+
+    background: #555555;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+table td,th {
+
+    border: 0.1rem solid #000000;
+    padding: 0.8rem 1.5rem;
+
+}
+
 
 /*Capturar eventos: Css*/
+/*nav*/
 .navegator a:hover{
 
     color: #c78c19;
@@ -79,7 +152,16 @@ header {
 
 }
 
+/*button form*/
+.enviar:hover {
+
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+
 /*Footer*/
+
 .footer {
 
     text-align: center;
