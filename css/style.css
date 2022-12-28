@@ -1,3 +1,11 @@
+/*fuente Externa*/
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
 /*Cambio de medidas de px a rem- Proyecto*/
 html {
 
@@ -202,9 +210,15 @@ table td,th {
 
 /*Main-home*/
 
+.main-home {
+
+    margin: 0 auto;
+
+}
+
 .banner {
     width: 100%;
-    height: 50rem;
+
 }
 
 .principal-title {
@@ -213,6 +227,7 @@ table td,th {
     font-size: 4rem;
     padding: 4rem;
     margin: 0 0 1rem;
+    clear: left;
 
 }
 
@@ -227,21 +242,111 @@ table td,th {
 .main strong {
 
     font-weight: bold;
+
+}
+
+.utensilios {
+
+    width: 12rem;
+    float: left;
+    margin: 0 2rem 2rem 0;
+
 }
 
 .main {
 
     font-style: italic;
+    background: #fefefe;
+    
+}
+
+.mapa {
+
+    padding: 3em 0;
+    background: linear-gradient(#fefefe,#88888888);
+
+}
+
+.mapa p {
+
+    margin-left: 3rem;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.mapa-cont {
+
+    width: 94rem;
+    margin: 0 auto;
+
+}
+
+.diferent {
+
+    background: #88888888;
+
+}
+
+.cont-dif {
+
+    width: 80rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,(1fr, 3fr));
+    align-content: center;
+    grid-gap: 3rem;
+
+}
+
+.list-dif {
+
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
 
 }
 
 .img-dife {
 
-    width: 60%;
+    margin-bottom: 2rem;
+    transition: 400ms;
+    box-shadow: 1rem 1rem 3rem 1rem #000000;
 
 }
 
-/*Capturar eventos: Css*/
+.items {
+
+    line-height: 1.5;
+}
+
+.img-dife {
+
+    width: 100%;
+
+}
+
+.video {
+
+    width: 56rem;
+    margin: 1em auto;
+
+}
+
+/*Capturar eventos: Home*/
+
+.items::before {
+
+    content: "ໂ";
+
+}
+
+
+.items:first-child {
+
+    font-weight: bold;
+
+}
 
 .navegator a:hover{
 
@@ -250,6 +355,13 @@ table td,th {
 
 }
 
+.img-dife:hover {
+
+    opacity: 0.3;
+
+}
+
+/*Capturar eventos Productos*/
 .products li:hover {
 
     border-color: #c78c19;
@@ -268,7 +380,7 @@ table td,th {
 
 }
 
-/*button form*/
+/*Capturar enventos Formi*/
 .enviar:hover {
 
     background: darkorange;
@@ -291,3 +403,79 @@ table td,th {
     margin: 2rem;
 }
 
+/*Media Queries*/
+
+@media screen and (max-width:48rem) {
+
+    h1  {
+
+        text-align: center;
+
+    }
+
+
+    .navegator {
+
+        position: static;
+
+    }
+    
+
+    .container, .main, .mapa-cont, .cont-dif, .video {
+
+        width: auto;
+
+    }
+
+    .cont-dif {
+
+        grid-template-columns: 1fr;
+
+    }
+    
+}
+
+@media screen and (max-width:37rem) {
+
+    h1  {
+
+        text-align: center;
+
+    }
+
+    .navegator {
+
+        position: static;
+
+    }
+    
+
+    .container, .products, .footer, .formularios {
+
+        width: auto;
+
+    }
+
+
+    .horarios {
+
+        width: 100%;
+        margin: 0;
+
+    }
+    
+
+    .products li {
+
+        display: block;
+        text-align: center;
+        width: auto;
+        margin-top: 2rem;
+        padding: 3rem 2rem;
+        box-sizing: border-box;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+
+    }
+
+}
